@@ -7,6 +7,7 @@ import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Link } from 'expo-router';
 
+
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
@@ -18,7 +19,7 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
+        <ThemedText type="title">Aqui estamos pronbando!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -59,6 +60,7 @@ export default function HomeScreen() {
             </Link.Menu>
           </Link.Menu>
         </Link>
+        
 
         <ThemedText>
           {`Tap the Explore tab to learn more about what's included in this starter app.`}
